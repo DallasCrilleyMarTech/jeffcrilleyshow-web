@@ -3,7 +3,7 @@ title: "From Local News to Global Business"
 podcastTitle: "Nancy Daniels, COO, Hyosung | The Jeff Crilley Show"
 publishDate: 2026-03-15T10:00:00Z
 summary: "Nancy Daniels, COO of Hyosung Americas, sits down with Jeff Crilley to discuss her journey from local news to leading a global manufacturing company. They explore leadership lessons, the importance of community, and how to build a career that matters."
-youtubeId: "9bD5ZFiTCjc"
+youtubeId: "ONISh7a-Hp8"
 transistorUrl: "https://share.transistor.fm/s/example"
 featuredImage: "/images/episodes/sample-guest.jpg"
 guestName: "Nancy Daniels"
