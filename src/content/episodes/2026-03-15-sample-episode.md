@@ -1,44 +1,41 @@
 ---
-title: "From Local News to Global Business"
-podcastTitle: "Nancy Daniels, COO, Hyosung | The Jeff Crilley Show"
-publishDate: 2026-03-15T10:00:00Z
-summary: "Nancy Daniels, COO of Hyosung Americas, sits down with Jeff Crilley to discuss her journey from local news to leading a global manufacturing company. They explore leadership lessons, the importance of community, and how to build a career that matters."
+title: "From the Pitch to the Pop Charts: The Multifaceted Rise of Amiko"
+podcastTitle: "Amiko | The Jeff Crilley Show"
+publishDate: 2026-03-18T10:00:00Z
+summary: "Amiko, a fast-rising music artist and U.S. Soccer C licensed coach, joins Jeff Crilley to talk about blending music, sport, fashion, and beauty into one powerful brand. Born on a U.S. military base in Japan, Amiko shares her journey from poet to pop artist, her Dallas-based youth soccer initiative Futsoul, and her vision as an ambassador uniting music and soccer ahead of the 2026 FIFA World Cup."
 youtubeId: "e3Ygro0YJ_E"
-transistorUrl: "https://share.transistor.fm/s/example"
-featuredImage: "/images/episodes/sample-guest.jpg"
-guestName: "Nancy Daniels"
-guestTitle: "COO, Hyosung Americas"
-tags: ["business", "leadership", "manufacturing", "career"]
-topics: ["Global Supply Chain", "Leadership", "Career Transitions"]
+transistorUrl: "https://share.transistor.fm/s/cda06d7c"
+featuredImage: "https://i.ytimg.com/vi/e3Ygro0YJ_E/hqdefault.jpg"
+guestName: "Amiko"
+guestTitle: "Music Artist & Soccer Coach"
+tags: ["music", "soccer", "entrepreneurship", "FIFA 2026", "Dallas"]
+topics: ["Music & Sports", "Youth Soccer", "FIFA World Cup 2026", "Personal Branding"]
 chapters:
   - time: "00:00"
     title: "Introduction"
-  - time: "03:45"
-    title: "From Journalism to Business"
-  - time: "12:30"
-    title: "Leading a Global Team"
-  - time: "22:15"
-    title: "Community Impact"
-  - time: "31:00"
-    title: "Advice for Young Leaders"
+  - time: "04:00"
+    title: "Born on a Military Base in Japan"
+  - time: "10:00"
+    title: "From Poetry to Pop Music"
+  - time: "18:00"
+    title: "Principle of Play - The Single"
+  - time: "25:00"
+    title: "Futsoul & Youth Soccer in Dallas"
+  - time: "32:00"
+    title: "FIFA 2026 World Cup Vision"
 highlights:
-  - time: "08:20"
-    title: "The moment everything changed"
-  - time: "18:45"
-    title: "Why she left a career in news"
+  - time: "10:00"
+    title: "How poetry became songwriting"
+  - time: "25:00"
+    title: "Putting the soul back into youth soccer"
 socialLinks:
-  facebook: "https://facebook.com/jeffcrilleyshow/posts/example"
-  linkedin: "https://linkedin.com/posts/example"
-  x: "https://x.com/jeffcrilley/status/example"
-clips:
-  - title: "The moment everything changed"
-    url: "https://youtube.com/shorts/example1"
-    thumbnail: "/images/clips/sample-clip-1.jpg"
-  - title: "Why she left a career in news"
-    url: "https://youtube.com/shorts/example2"
-    thumbnail: "/images/clips/sample-clip-2.jpg"
+  facebook: "https://www.facebook.com/946513605370351/videos/1243452364602136"
+  linkedin: "https://www.linkedin.com/feed/update/urn:li:share:7440090131543412736"
+clips: []
 ---
 
-Nancy Daniels, COO of Hyosung Americas, sits down with Jeff Crilley to discuss her remarkable journey from local news to leading a global manufacturing company. They explore leadership lessons, the importance of community, and how to build a career that matters.
+Amiko, a fast-rising music artist and U.S. Soccer C licensed coach, joins Jeff Crilley to talk about blending music, sport, fashion, and beauty into one powerful brand. Born on a U.S. military base in Japan — her name means "precious little girl" in Japanese — Amiko has built a career that defies easy categorization.
 
-In this wide-ranging conversation, Nancy shares the pivotal moment that changed her career trajectory and why she believes authentic leadership is the key to building trust in any organization.
+In this conversation, she shares the story behind her single "Principle of Play," inspired by her soccer coaching certification and produced with Grammy-winning producer Carlos Battey. She talks about earning her U.S. Soccer C License in 2023, launching Futsoul — her Dallas-based youth soccer initiative to "put the soul back into youth soccer" — and her broadcasting work in the sport.
+
+With the 2026 FIFA World Cup coming to Dallas, Amiko sees herself as an ambassador uniting music and soccer on the world stage. Jeff and Amiko explore what it means to build an authentic personal brand that spans multiple passions without losing focus.
