@@ -1,0 +1,28 @@
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/500.css';
+@import '@fontsource/inter/600.css';
+@import '@fontsource/inter/700.css';
+
+@import 'tailwindcss';
+
+@layer base {
+  :root {
+    --color-accent: #e63946;
+    --color-accent-hover: #d62839;
+    --color-surface: #111827;
+    --color-surface-elevated: #1f2937;
+    --color-text-primary: #f9fafb;
+    --color-text-secondary: #9ca3af;
+    --color-border: #374151;
+  }
+
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+    background-color: var(--color-surface);
+    color: var(--color-text-primary);
+  }
+
+  body {
+    min-height: 100vh;
+  }
+}
