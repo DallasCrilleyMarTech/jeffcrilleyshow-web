@@ -1,0 +1,13 @@
+---
+interface Props { topics: string[]; }
+const { topics } = Astro.props;
+---
+{topics.length > 0 && (
+  <div class="flex flex-wrap gap-2">
+    {topics.map((topic) => (
+      <span class="px-3 py-1 text-xs font-medium rounded-full bg-gray-800 text-gray-300 border border-gray-700">
+        {topic}
+      </span>
+    ))}
+  </div>
+)}

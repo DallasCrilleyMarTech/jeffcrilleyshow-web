@@ -1,0 +1,42 @@
+---
+interface Props {
+  slug: string;
+  title: string;
+  summary: string;
+  publishDate: Date;
+  guestName?: string;
+  featuredImage?: string;
+  topics: string[];
+}
+const { slug, title, summary, publishDate, guestName, featuredImage, topics } = Astro.props;
+const formattedDate = publishDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+---
+<a href={`/episodes/${slug}`} class="group block">
+  <article class="rounded-xl overflow-hidden bg-gray-900 border border-gray-800 hover:border-gray-600 transition-all duration-300">
+    {featuredImage ? (
+      <div class="aspect-video overflow-hidden bg-gray-800">
+        <img src={featuredImage} alt={title} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+      </div>
+    ) : (
+      <div class="aspect-video bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center">
+        <span class="text-4xl text-gray-700">JCS</span>
+      </div>
+    )}
+    <div class="p-5">
+      <div class="flex items-center gap-2 text-xs text-gray-500 mb-2">
+        {guestName && <span class="text-gray-400">{guestName}</span>}
+        {guestName && <span>&middot;</span>}
+        <time datetime={publishDate.toISOString()}>{formattedDate}</time>
+      </div>
+      <h2 class="text-lg font-semibold text-white group-hover:text-red-400 transition-colors mb-2 line-clamp-2">{title}</h2>
+      <p class="text-sm text-gray-400 line-clamp-3">{summary}</p>
+      {topics.length > 0 && (
+        <div class="flex flex-wrap gap-1.5 mt-3">
+          {topics.slice(0, 3).map((topic) => (
+            <span class="text-xs px-2 py-0.5 rounded-full bg-gray-800 text-gray-500">{topic}</span>
+          ))}
+        </div>
+      )}
+    </div>
+  </article>
+</a>
