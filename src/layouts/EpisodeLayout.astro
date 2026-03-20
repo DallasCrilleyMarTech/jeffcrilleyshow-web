@@ -1,0 +1,50 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import YouTubeEmbed from '../components/YouTubeEmbed.astro';
+import GuestBio from '../components/GuestBio.astro';
+import TopicTags from '../components/TopicTags.astro';
+import ChapterList from '../components/ChapterList.astro';
+import ClipGallery from '../components/ClipGallery.astro';
+import SocialLinks from '../components/SocialLinks.astro';
+
+const { entry, Content } = Astro.props;
+const { data } = entry;
+const youtubeUrl = data.youtubeId ? `https://www.youtube.com/watch?v=${data.youtubeId}` : undefined;
+---
+
+<BaseLayout title={`${data.title} | The Jeff Crilley Show`} description={data.summary} image={data.featuredImage}>
+  <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
+    {data.youtubeId && (
+      <div class="mb-8">
+        <YouTubeEmbed videoId={data.youtubeId} title={data.title} />
+      </div>
+    )}
+    <header class="mb-8">
+      <h1 class="text-3xl sm:text-4xl font-bold mb-3">{data.title}</h1>
+      <GuestBio guestName={data.guestName} guestTitle={data.guestTitle} publishDate={data.publishDate} />
+    </header>
+    <div class="flex flex-wrap gap-3 mb-8">
+      {data.transistorUrl && (
+        <a href={data.transistorUrl} target="_blank" rel="noopener noreferrer"
+          class="inline-flex items-center gap-2 px-5 py-2.5 text-sm font-medium rounded-lg bg-red-600 text-white hover:bg-red-500 transition-colors">
+          Listen
+        </a>
+      )}
+      {youtubeUrl && (
+        <a href={youtubeUrl} target="_blank" rel="noopener noreferrer"
+          class="inline-flex items-center gap-2 px-5 py-2.5 text-sm font-medium rounded-lg bg-gray-800 text-white border border-gray-700 hover:border-gray-500 transition-colors">
+          Watch on YouTube
+        </a>
+      )}
+    </div>
+    <section class="mb-8">
+      <div class="prose prose-invert prose-gray max-w-none">
+        <Content />
+      </div>
+    </section>
+    <div class="mb-8"><TopicTags topics={data.topics} /></div>
+    <div class="mb-8"><ChapterList chapters={data.chapters} youtubeId={data.youtubeId} /></div>
+    <div class="mb-8"><ClipGallery clips={data.clips} /></div>
+    <div class="mb-8"><SocialLinks socialLinks={data.socialLinks} /></div>
+  </article>
+</BaseLayout>
